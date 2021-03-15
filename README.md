@@ -1,9 +1,9 @@
 # PHP - OBJECT ORIENTED PROGRAMMING
 
-## Creare una o più classi a vostro piacimento, che rappresentino degli oggetti comuni.
+## - Create one or more classes that represent common objects.
 
 
-## Dichiarate le sue proprietà e quindi il costruttore per istruire la classe su come, appunto, creare l'oggetto.
+## - Declare its properties and then the "__construct" to instruct the class on how to create the object.
 
 ## Instanziare almeno 3 oggetti per ciascuna classe.
 
