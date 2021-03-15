@@ -59,11 +59,17 @@ $horse = new Classification('Eukarya', 'Animalia', 'Chordata', 'Mammalia', 'Peri
 
 $newOrganism = new Organism('Cat');
 var_dump($newOrganism);
-
 $newOrganism->addOrganism($cat);
-$newOrganism->addOrganism($dog);
-$newOrganism->addOrganism($horse);
+var_dump($newOrganism->getClassifications());
 
+$newOrganism = new Organism('Dog');
+var_dump($newOrganism);
+$newOrganism->addOrganism($dog);
+var_dump($newOrganism->getClassifications());
+
+$newOrganism = new Organism('Horse');
+var_dump($newOrganism);
+$newOrganism->addOrganism($horse);
 var_dump($newOrganism->getClassifications());
 
 
